@@ -2,6 +2,7 @@
 
 A Python package to generate data of your choice!
 
+## <i> work-in-progress
 
 ### Dependencies:
 
@@ -36,13 +37,14 @@ Initialize the parameters:
 
 ```
 params = {
-            'number_of_numerical_features': 2,
-            'number_of_categorical_features': 0,
-            'mean': 0,
-            'stdev': 5,
-            'decimals': 2,
-            'samples': 10,
-        }
+        'number_of_numerical_features': 2,
+        'number_of_categorical_features': 3,
+        'mean': 0,
+        'stdev': 5,
+        'decimals': 2,
+        'samples': 10,
+        'number_of_categories': 3,
+       }
 ```
 
 
